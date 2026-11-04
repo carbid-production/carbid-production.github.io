@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CARBID · Пульт продавца — Wildberries, Ozon и Яндекс Маркет в одном окне</title>
-<meta name="description" content="Программа для Windows: сторож акций находит товары, которые акции площадок увели ниже вашего порога маржи, и исправляет по кнопке. Заказы FBS, товары, цены и расчётная маржа WB, Ozon и Маркета в одном окне. Разовая покупка 9 900 ₽, бесплатная демонстрация.">
-<meta property="og:title" content="CARBID · Пульт продавца — WB, Ozon и Маркет в одном окне">
-<meta property="og:description" content="Сторож акций: находит товары ниже порога маржи и исправляет по кнопке. Бесплатная демонстрация.">
+<meta name="description" content="Все кабинеты WB, Ozon и Яндекс Маркета в одном окне: заказы FBS, остатки, продажи за 30 дней, вопросы покупателей, маржа и сторож акций. Версия 1.2 за 4 999 ₽, бесплатная демонстрация для Windows.">
+<meta property="og:title" content="CARBID · Пульт продавца — все кабинеты в одном окне">
+<meta property="og:description" content="Заказы, остатки, продажи, покупатели и сторож акций в одной программе для Windows. Бесплатная демонстрация версии 1.2.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://carbid-production.github.io/pult/img/guard.png">
 <meta name="theme-color" content="#0d141e">
@@ -122,11 +122,11 @@
 <main id="top">
   <div class="wrap hero">
     <span class="tag">Wildberries · Ozon · Яндекс Маркет</span>
-    <h1>Сколько ваших товаров акции площадок уже увели ниже маржи?</h1>
-    <p class="lead">Программа для Windows сверяет цену после акций с вашей себестоимостью и расходами и показывает такие товары на Wildberries, Ozon и Яндекс Маркете. Сама ничего не меняет: исправляет только по вашей кнопке и после окна подтверждения.</p>
+    <h1>Все ваши кабинеты и продажи в одном окне</h1>
+    <p class="lead">Программа для Windows собирает заказы FBS, остатки, продажи за 30 дней, вопросы покупателей и маржу Wildberries, Ozon и Яндекс Маркета. А ещё находит акции ниже вашего порога и исправляет их только по вашей кнопке.</p>
     <div class="buttons">
       <a class="btn btn-main js-download" href="#try">Скачать бесплатно</a>
-      <a class="btn btn-ghost js-buy" href="#price">Купить — 9 900 ₽ разово</a>
+      <a class="btn btn-ghost js-buy" href="#price">Купить — 4 999 ₽ разово</a>
     </div>
     <p class="fine">Бесплатно — демонстрация на вымышленных данных. Свои кабинеты подключаются кодом активации. Ключи API остаются на вашем компьютере.</p>
     <div class="result">
@@ -161,7 +161,7 @@
             <li>Не меняет цены, остатки, заказы и карточки сам. Из изменений возможны три: скидка WB вниз, выключение автодобавления на Ozon, выход из акции. Без вашей кнопки — ни одного.</li>
             <li>Не оценивает товары без себестоимости: их маржа неизвестна.</li>
             <li>Не поднимает базовую цену: если товар ниже порога и без скидки, цену поднимаете сами.</li>
-            <li>Нет FBO и FBW, остатков Маркета, рекламы, отзывов, финансовых отчётов и фонового обновления: загрузка идёт по кнопке «Обновить».</li>
+            <li>Нет FBO и FBW, рекламы и полных финансовых отчётов. Обращения Ozon и возвраты Ozon и Маркета не загружаются. Фонового обновления нет: загрузка идёт по кнопке «Обновить».</li>
           </ul>
         </div>
         <div class="card">
@@ -178,9 +178,9 @@
       <div class="card" style="margin-top:16px">
         <h3>Что проверено на живых данных</h3>
         <ul>
-          <li>Загрузка товаров, цен и комиссий — на живых кабинетах Wildberries, Ozon и Яндекс Маркета, 5.10.2026, только чтение.</li>
-          <li>Сторож — на живых кабинетах 13.10.2026, только чтение: на Wildberries нашёл товары ниже порога, на Ozon и Маркете находок не было.</li>
-          <li>Кнопки «Исправить» на живых кабинетах не нажимались. Их работа проверена автоматическими тестами на синтетических ответах площадок и в демонстрации.</li>
+          <li>Все 18 разделов WB, Ozon и Маркета загружены на живых кабинетах 04.11.2026, только чтение: заказы, товары, акции, продажи, обращения и баланс.</li>
+          <li>Сторож — на живых кабинетах, только чтение. Кнопки «Исправить» проверены автоматическими тестами на синтетических ответах площадок и в демонстрации.</li>
+          <li>Версия 1.2: 66 автоматических тестов, готовый EXE — 14 проверок на обычной и минимальной ширине окна, независимый QA — PASS.</li>
           <li>Windows x64, проверено на Windows 11.</li>
         </ul>
       </div>
@@ -215,27 +215,35 @@
 
   <section id="features">
     <div class="wrap">
-      <h2>Всё остальное — в одном окне</h2>
-      <p class="sub">Несколько кабинетов трёх площадок, фильтр по кабинету и поиск по артикулам и заказам.</p>
+      <h2>Всё необходимое — в одном окне</h2>
+      <p class="sub">Несколько кабинетов трёх площадок, общая очередь действий и поиск по артикулам, товарам и заказам.</p>
       <div class="grid2">
         <figure>
           <img class="shot" src="img/orders.png" width="2160" height="1410" alt="Экран «Заказы»: очередь FBS по всем кабинетам" loading="lazy">
           <figcaption>Очередь заказов FBS по всем подключённым кабинетам.</figcaption>
         </figure>
         <figure>
+          <img class="shot" src="img/sales.png" width="2160" height="1410" alt="Экран «Продажи»: заказы и начисления за 30 дней" loading="lazy">
+          <figcaption>Заказы, отмены, выручка и доступные начисления за 30 дней.</figcaption>
+        </figure>
+        <figure>
+          <img class="shot" src="img/products.png" width="2160" height="1410" alt="Экран «Товары»: товары и остатки трёх площадок" loading="lazy">
+          <figcaption>Товары, цены и остатки WB, Ozon и Маркета (FBS/FIT).</figcaption>
+        </figure>
+        <figure>
           <img class="shot" src="img/margin.png" width="2160" height="1410" alt="Экран «Маржа»: расчётная маржа на единицу товара" loading="lazy">
           <figcaption>Расчётная маржа на единицу: себестоимость, логистика, налог и другие ваши расходы.</figcaption>
         </figure>
         <figure>
-          <img class="shot" src="img/products.png" width="2160" height="1410" alt="Экран «Товары»: товары и цены трёх площадок" loading="lazy">
-          <figcaption>Товары и цены трёх площадок, остатки FBS Wildberries и Ozon.</figcaption>
+          <img class="shot" src="img/customers.png" width="2160" height="1410" alt="Экран «Покупатели»: вопросы и отзывы без ответа" loading="lazy">
+          <figcaption>Вопросы и отзывы WB и Маркета, которые ждут вашего ответа.</figcaption>
         </figure>
         <figure>
-          <img class="shot" src="img/overview.png" width="2160" height="1410" alt="Экран «Обзор»: сводка по кабинетам" loading="lazy">
-          <figcaption>Обзор по кабинетам. Отчёт в PDF, таблицы в CSV, история снимков и резервная копия.</figcaption>
+          <img class="shot" src="img/overview.png" width="2160" height="1410" alt="Экран «Обзор»: срочные действия и состояние кабинетов" loading="lazy">
+          <figcaption>Единая очередь действий, состояние каждого кабинета, экспорт CSV и PDF, резервные копии.</figcaption>
         </figure>
       </div>
-      <p class="fine" style="margin-top:18px">На скриншотах — реальный интерфейс программы с демонстрационными данными.</p>
+      <p class="fine" style="margin-top:18px">На скриншотах — реальный интерфейс версии 1.2 с демонстрационными данными.</p>
     </div>
   </section>
 
@@ -252,7 +260,7 @@
         <div class="card">
           <span class="num">ШАГ 2</span>
           <h3>Купите код активации</h3>
-          <p>9 900 ₽ разово на Wildberries: комплект с флешкой, кодом активации и инструкцией.</p>
+          <p>4 999 ₽ разово на Яндекс Маркете: код активации и инструкция приходят на e-mail.</p>
         </div>
         <div class="card">
           <span class="num">ШАГ 3</span>
@@ -274,21 +282,21 @@
       <div class="price">
         <div class="card price-main">
           <h3>CARBID · Пульт продавца</h3>
-          <b>9 900 ₽</b>
+          <b>4 999 ₽</b>
           <ul>
             <li>Разовая покупка, без подписки.</li>
             <li>Код активации подходит ко всем версиям 1.x.</li>
             <li>Windows x64, проверено на Windows 11. Интерфейс на русском.</li>
           </ul>
           <div class="buttons" style="margin-top:18px">
-            <a class="btn btn-main js-buy" id="buy" href="https://www.wildberries.ru/catalog/1864311950/detail.aspx" target="_blank" rel="noopener">Купить на Wildberries</a>
+            <a class="btn btn-main js-buy" id="buy" href="https://market.yandex.ru/card/carbid--programma-dlya-kabinetov-marketpleysov-windows/234719475638566912" target="_blank" rel="noopener">Купить на Яндекс Маркете</a>
           </div>
         </div>
         <div class="card">
-          <h3>Чего в версии 1.1 нет</h3>
+          <h3>Чего в версии 1.2 нет</h3>
           <ul>
-            <li>Остатков Яндекс Маркета, FBO и FBW.</li>
-            <li>Рекламы, отзывов, финансовых отчётов.</li>
+            <li>FBO и FBW, рекламы и полных финансовых отчётов.</li>
+            <li>Вопросов и отзывов Ozon, возвратов Ozon и Маркета.</li>
             <li>Фонового обновления и мобильного приложения: данные обновляются по кнопке.</li>
           </ul>
           <p style="margin-top:12px">Маржа в программе — расчётная по вашим расходам, а не чистая прибыль по фактическим выплатам. Работа подключений зависит от API площадок.</p>
@@ -334,7 +342,7 @@
   "use strict";
 
   /* Настройки. DOWNLOAD — прямая ссылка на архив, METRIKA_ID — номер счётчика. */
-  var DOWNLOAD = "https://github.com/carbid-production/pult/releases/download/v1.1.0/CARBID-1.1.0-Market-Windows-x64.zip";
+  var DOWNLOAD = "https://github.com/carbid-production/pult/releases/download/v1.2.0/CARBID-1.2.0-Market-Windows-x64.zip";
   var METRIKA_ID = "113673204";
 
   var downloadSet = DOWNLOAD.indexOf("__") !== 0;
